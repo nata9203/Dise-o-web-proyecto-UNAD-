@@ -1,29 +1,75 @@
 <!DOCTYPE html>
 <html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta content="Grupo 301122A_360 " name="author">
+	<meta content="Fase de Construcción: Creando un OVI en formato WEB con HTML5 y CSS3" name="description">
+	<meta content="UNAD, diseño we html" name="keywords">
+	<title>Red Gourmet</title>	
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script>
+	$(window).load(function(){
+		$(".flexslider").flexslider();
+	});
+	</script>
+</head>
+<body>
+	<header>
+	<h1>
+		<a href="index.html">
+			<img class="fade" src="img/encabe.png" alt="header">
+		</a>
+	</h1>
+		<nav>
+			<ul>
+				<li><a href="index1.html">Inicio</a></li>
+				<li><a href="registro.html">Registrarse</a></li>
+				<li><a href="lecturas.html">Lecturas</a></li>
+				<li><a href="contactenos.html">Contactenos</a></li>
+			</ul>
+		</nav>
+		</header>
+		<section id="contenido">
+		<section id="principal">
+			<article id="galeria-inicio"> 
+				<div class="flexslider">
+					<ul class="slides">
+						<li>
+							<a><img src="img/camarones.png"></a>
+							<p class="flex-caption"></p>
+						</li>
+						<li>
+							<img src="img/langosta.png">
+							<p class="flex-caption"></p>
+						</li>
+						<li>
+							<img src="img/pizza.png">
+						</li>
+						<li>
+							<img src="img/pollo.png">
+						</li>
+					</ul>
+				</div>
+			</article>
+		</section>			
+			<aside>
+			<!-- twitter -->
+			<script src="http://platform.twitter.com/widgets.js"></script>
+			<a href="https://twitter.com/UniversidadUNAD?lang=es" target="black" data-count="vertical">Twitter</a>
+			<br /><br />
+			<div id="fb-root"></div>
+			<script src="http://connect.facebook.net/es_LA/all.js#xfbml=1"></script>
+			<fb:like href="https://www.facebook.com/Universidad-Nacional-Abierta-y-a-Distancia-UNAD-285790428108305/" send="true" layout="box_count" show-faces"false" font="tahoma"></fb:like>
+			</aside>
+		</section>
+		<footer>
+			<img src="img/logoUNAD.png">
+		</footer>
+		
+	</div>
 
-    <head>
-    	<title>Transporte de Colombia</title>
-    	<meta charset="utf-8">
-    	<link rel="stylesheet" type="text/css" media="all" href="css/estilos.css"/>
-    </head>
-
-    <body>
-    	<header>
-    		<nav>
-    		<ul>
-    			<li><a href="login.html">Iniciar Sesión</a></li>
-    			<li><a href="ayuda.html">Ayuda</a></li>
-    			<li><a href="transportador.html">Conviertete en Conductor</a></li>
-    		</ul>
-    		</nav>
-    		<h1>Transportes de Colombia</h1>
-	    		<div class="imagen">
-		    		<img src="img/carretera.jpg">
-		    		<h2 class="programar"><span>Podra Programar sus cargas con un solo clic</span></h2>
-	    		</div>
-    	
-    	</header>
-    	<section id="contenido">
-    		
-    	</section>
-    </body>
+</body>
+</html>
